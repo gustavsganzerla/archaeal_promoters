@@ -16,4 +16,6 @@ The code 03 will shuffle the nucleotides of n input sequences and save this in f
  
 The code 04 is an SVM-based classifier for archaeal promoter sequences. It's train/test data comprises on 3800 experimental and in-silico validate promoter sequences from the following archaea: Haloferax volcanii, thermococcus kodakarensis, sulfolobus soflataricus, aciduliprofundum boonei, and thermofilum pendens. The train/test sequences were submitted to code 01 and code 02. A label has been assigned, where 0 = non-promoter and 1 = promoter. Non-promoter sequences were obtained with the code 03. 
 
+The sequences in the input format for the script 04 are already converted into stability in the file promoters_vs_shuffled.csv. There is also the label, in which 0 = non-promoter and 1 = promoter.
+
 The predicted_promoters branch contains the outcome of a prediction method to annotate promoters in upstream sequences of archaeal organisms.
